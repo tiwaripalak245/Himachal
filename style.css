@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./assets/images-background.jfif");
+    /* background-size: cover; */
+    background-position: right;
+    background-repeat: repeat;
+}
+
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero-img img{
+    width: 100%;
+}
+.fixed-container{
+    position: fixed;
+    top: 300px;
+    right: 0;
+   
+}
+.box-i{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+.box-i p{
+    text-align: center;
+    padding-top: 10px;
+ }
+
+.img-box{
+    width: 100%;
+    height: auto;
+    padding-block: 40px;
+  
+}
+.img-box img{
+padding: 0px 0px 0px 600px;}
+
+.img-box h1{
+    font-size: 50px;
+    font-weight: 200;
+    padding: 30px;
+    text-align: center;
+}
+
+.box-one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+
+.box-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 40px;
+
+}
+
+
+.himalay{
+    width: 350px;
+    height: 300px;
+    background-image: url("./assets/Chandra-Bhaga-river-1.jpg");  
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    
+}
+
+
+.himalay h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid red;
+text-align: center;    
+}
+
+.himalay p{
+    text-align: center;  
+    color: white; 
+    font-weight: 300; 
+    
+}
+
+.fandf{
+    width: 350px;
+    height: 300px;
+    background-image: url("./assets/Table10-Great-Himalayan-National-Park-Kullu-min.jpg");
+    background-position: center;
+    background-size: cover; 
+    padding: 100px;
+
+}
+
+.fandf h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+    border-bottom-width: thin;
+text-align: center;    
+}
+
+.fandf p{
+    text-align: center;  
+    color: white; 
+    font-weight: 300; 
+    
+}
+
+.forf{
+    width: 350px;
+    height: 300px;
+    background-image: url("./assets/Kullu-Dusshra1.-min.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+
+}
+
+.forf h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+    border-bottom-width: thin;
+text-align: center;    
+}
+
+.forf p{
+    text-align: center;  
+    color: white; 
+    font-weight: 300; 
+    
+}
+
+.cuisine{
+    width: 350px;
+    height: 300px;
+    background-image: url("./assets/Indian-Food.jpg"); 
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.cuisine h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+    border-bottom-width: thin;
+text-align: center;    
+}
+
+.cuisine p{
+    text-align: center;  
+    color: white; 
+    font-weight: 300; 
+    
+}
+
+.adt{
+    width: 350px;
+    height: 300px;
+    background-image: url("./assets/mountain-cycling-himachal-3-1024x683.jpg"); 
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.adt h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+    border-bottom-width: thin;
+text-align: center;    
+}
+
+.adt p{
+    text-align: center;  
+    color: white; 
+    font-weight: 300; 
+    
+}
+
+.candh{
+    width: 350px;
+    height: 300px;
+    background-image: url("./assets/Nako-Monastery-Kinnaur-min.jpg"); 
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.candh h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+    border-bottom-width: thin;
+text-align: center;    
+}
+
+.candh p{
+    text-align: center;  
+    color: white; 
+    font-weight: 300;   
+}
+
+.content-part{
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 25, 50);
+    color: white;
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.content h1{
+font-weight: 200;
+}
+
+.content p{
+line-height: 2.3em;
+padding-top: 20px;
+
+}
+
+.content-img img{
+    width: 650px;
+    padding-top: 50px;
+
+}
+
+.destination{
+    width: 100%;
+    height: auto;
+    padding-block: 50px;
+    background-color: rgb(242, 239, 236);
+}
+
+.dtn-text{
+    display: flex;
+    padding-inline: 30px;
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top h1{
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.destination-box{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+span{
+    display: flex;
+    padding: 30px;
+}
+
+span img{
+    height: 130px;
+    width: 130px;
+    border-radius: 200px;
+}
+
+span h2{
+    font-size: 15px;
+}
+
+span p{
+    font-size: 12px;
+}
+
+.span-text{
+    padding-block: 50px;
+    padding-left: 20px;
+}
+
+.tourism{
+    width: 50%;
+padding-top: 80px;}
+
+.pink-box{
+    width: 100%;
+    height: auto;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+
+.pink-box img{
+    width: 100%;
+}
+
+.social-tab{
+    width: 100%;
+    height: 80px;
+    background-image: url("./assets/footernav_img.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.links{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.list-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-section ul li h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.list-section ul li{
+    font-size: 12px;
+    list-style: none;
+    padding: 5px;
+}
+.copyright{
+    width: 100%;
+    height: auto;
+    display: flex;
+padding-inline: 30px;}
+
+.copy-text p{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.india-img{
+   width: 200px;
+}
+
+@media (max-width: 768px) {
+   .main-container{
+    width: 100%;
+    height: auto;
+    
+   } 
+
+   nav{
+    width: 100%;
+    flex-direction: column;
+
+   }
+
+   nav ul{
+display: flex;
+flex-wrap: wrap;
+align-items: start; 
+ }
+
+ nav ul li{
+    padding: 5px;
+ }
+
+   nav img{
+    width: 100px;
+   }
+
+.img-box{
+    width: 100%;
+    padding-top: 20px;
+}
+.img-box h1{
+    font-size: 40px;
+}
+
+.img-box img{
+    padding-left: 200px;
+    
+}
+
+.box-one{
+    flex-direction: column;
+
+}
+.box-two{
+    flex-direction: column;
+}
+.himalay{
+    width: 450px;
+
+}
+.cuisine{
+    width: 450px;
+
+}
+
+.fandf{
+    margin-top: 20px;
+    width: 450px;
+}
+.forf{
+    margin-top: 20px;
+    width: 450px;
+
+}
+.adt{
+    margin-top: 20px;
+    width: 450px;
+
+
+}
+.candh{
+    margin-top: 20px;
+    width: 450px;
+}
+
+.content-part{
+    width: 100%;
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+}
+.content-img img{
+    width: 100%;
+}
+
+.destination{
+    width: 100%;
+}
+
+.dtn-text{
+    flex-direction: column;
+}
+.tourism{
+    width: 100%;
+}
+.social-tab{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.links{
+    width: 100%;
+    height: auto;
+}
+
+.list-section{
+    flex-direction: column;
+
+}
+
+.list-section ul{
+    padding-left: 20px;
+}
+.copyright{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+}
